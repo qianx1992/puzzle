@@ -1,1 +1,1 @@
-# puzzle
+这是用原生javascript编写的拼图游戏
