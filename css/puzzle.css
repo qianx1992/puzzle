@@ -1,0 +1,92 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+
+}
+input{
+	padding: 0;
+	outline-style: none;
+	border: none;
+}
+.wrap{
+	padding-top: 50px;
+}
+.left{
+	float: left;
+	width: 80px;
+	margin: 40px 80px 0 50px;
+}
+#random{
+	width: 100%;
+	height: 30px;
+	font: 16px/30px "微软雅黑";
+	background-color: #000;
+	color: red;
+	border-radius: 6px;
+}
+#right{
+	float: left;
+	width: 900px;
+	height: 500px;
+	margin: 10px 0 0 20px;
+	border: 1px solid #000;
+	position: relative;
+}
+#right span{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 6px;
+	/*background-image: url(../img/拼图游戏/pt1.jpg);*/
+	background-repeat: no-repeat;
+	/*color: #fff;
+	font: 50px/2 "微软雅黑";*/
+}
+.magnifier{
+	width:360px;
+}
+.magnifier:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.magnifier div{
+	float: left;
+	width: 150px;
+	height: 90px;
+	border: 3px solid pink;
+	/*background-image: url(../img/拼图游戏/pt1.jpg); */
+	background-repeat:no-repeat;
+	margin-bottom: 20px;
+}
+.magnifier .smallPic{
+	background-size: 150px 90px;
+	position: relative;
+	margin-right: 20px;
+}
+.magnifier .bigPic{
+	display: none;
+	background-size: 450px 270px;
+}
+.spMask{
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: cornflowerblue;
+	opacity: 0;
+}
+.spmShow{
+	opacity: .4;
+}
+.magnifier .bpShow{
+	display: block;
+}
